@@ -1,14 +1,10 @@
 # ldapauth-fork
 
-[![Sponsored by Leonidas](https://img.shields.io/badge/sponsored%20by-leonidas-389fc1.svg)](https://leonidasoy.fi/opensource)
+A fork of [node-ldapauth-fork](https://github.com/vesse/node-ldapauth-fork) that is in fact a fork of [node-ldapauth](https://github.com/trentm/node-ldapauth) - A simple node.js lib to authenticate against an LDAP server.
 
-Fork of [node-ldapauth](https://github.com/trentm/node-ldapauth) - A simple node.js lib to authenticate against an LDAP server.
+## Differences with parent fork
 
-## About the fork
-
-This fork was originally created and published because of an urgent need to get newer version of [ldapjs](http://ldapjs.org/) in use to [passport-ldapauth](https://github.com/vesse/passport-ldapauth) since the newer version supported passing `tlsOptions` to the TLS module. Since then a lot of issues from the original module ([#2](https://github.com/trentm/node-ldapauth/issues/2), [#3](https://github.com/trentm/node-ldapauth/issues/3), [#8](https://github.com/trentm/node-ldapauth/issues/8), [#10](https://github.com/trentm/node-ldapauth/issues/10), [#11](https://github.com/trentm/node-ldapauth/issues/11), [#12](https://github.com/trentm/node-ldapauth/issues/12), [#13](https://github.com/trentm/node-ldapauth/pull/13)) have been fixed, and new features have been added as well.
-
-Multiple [ldapjs](http://ldapjs.org/) client options have been made available.
+Differs with [node-ldapauth-fork](https://github.com/vesse/node-ldapauth-fork) in accounting ALL user's groups instead of only root ones: [#a3b6310a](https://github.com/tutu-ru/node-ldapauth-fork/commit/a3b6310a9df25f6181af3a804cc984b97ec01c13)
 
 ## Usage
 
